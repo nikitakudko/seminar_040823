@@ -6,8 +6,8 @@ Console.WriteLine($"Наибольшая цифра числа-> {maxDigit}");
 
 int MaxDigit(int num)
 {
-    int firstdigit = number / 10;
-    int seconddigit = number % 10;
+    int firstdigit = num / 10;
+    int seconddigit = num % 10;
     int result = firstdigit > seconddigit ? firstdigit : seconddigit;
     return result;
 }
