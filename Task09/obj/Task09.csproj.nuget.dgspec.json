@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\введение в С#\\seminar_010823\\Task09\\Task09.csproj": {}
+    "D:\\введение в С#\\seminar_040823\\Task09\\Task09.csproj": {}
   },
   "projects": {
-    "D:\\введение в С#\\seminar_010823\\Task09\\Task09.csproj": {
+    "D:\\введение в С#\\seminar_040823\\Task09\\Task09.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\введение в С#\\seminar_010823\\Task09\\Task09.csproj",
+        "projectUniqueName": "D:\\введение в С#\\seminar_040823\\Task09\\Task09.csproj",
         "projectName": "Task09",
-        "projectPath": "D:\\введение в С#\\seminar_010823\\Task09\\Task09.csproj",
+        "projectPath": "D:\\введение в С#\\seminar_040823\\Task09\\Task09.csproj",
         "packagesPath": "C:\\Users\\nkudk\\.nuget\\packages\\",
-        "outputPath": "D:\\введение в С#\\seminar_010823\\Task09\\obj\\",
+        "outputPath": "D:\\введение в С#\\seminar_040823\\Task09\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nkudk\\AppData\\Roaming\\NuGet\\NuGet.Config"

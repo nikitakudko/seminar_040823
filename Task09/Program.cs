@@ -4,9 +4,8 @@ Console.WriteLine($"случайное числов в диапазоне 10-99 
 int firstdigit = number / 10;
 int seconddigit = number % 10;
 
-int maxdigit = firstdigit;
-if(seconddigit>maxdigit) seconddigit = maxdigit;
+int result = firstdigit > seconddigit ? firstdigit : seconddigit;
 
-Console.WriteLine($"Наибольшая цифра случайного числа из диапазона - {maxdigit}");
+Console.WriteLine($"Наибольшая цифра случайного числа - {result}");
 
     
