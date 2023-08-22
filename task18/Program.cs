@@ -6,3 +6,9 @@
     if(num == 4) return "x > 0, y < 0 ";
     return null;
 }
+
+Console.WriteLine("Введите номер четверти: ");
+int number = Convert.ToInt32(Console.ReadLine());
+string result = CoordinateRange(number);
+
+Console.WriteLine(result != null ? result: "Некорректный ввод" );
