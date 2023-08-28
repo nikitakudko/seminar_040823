@@ -11,8 +11,6 @@ int Quarter(int x, int y)
     return 0;
 }
 
-
-
 Console.WriteLine("Введите координаты точки");
 Console.WriteLine("x: ");
 int xCoordinate = Convert.ToInt32(Console.ReadLine());
