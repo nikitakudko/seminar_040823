@@ -1,20 +1,24 @@
-﻿void FillArray(int[] mass)
+﻿void FillArr(int[] mass)
 {
-    Random random = new Random();
-    for (int i = 0; i < mass.Length; i++)
+    int i = 0;
+    var random = new Random();
+    while (i < mass.Length)
     {
         mass[i] = random.Next(2);
+        i++;
     }
 }
-void PrintArray(int[] mass)
+
+void PrintArr(int[] mass)
 {
-    for (int i = 0; i < mass.Length; i++)
+    int i = 0;
+    while (i < mass.Length)
     {
-        Console.Write(mass[i] + " ");
+        Console.Write($"{mass[i]} ");
+        i++;
     }
 }
+
 int[] array = new int[8];
-FillArray(array);
-PrintArray(array);
-
-
+FillArr(array);
+PrintArr(array);

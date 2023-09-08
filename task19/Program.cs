@@ -1,4 +1,4 @@
-﻿int n = 12359;
-int z = (n / 10) % 10;
+﻿int n = 1;
+int z = n / 2;
 Console.WriteLine($"{z}");
 
